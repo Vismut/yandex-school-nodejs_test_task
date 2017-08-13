@@ -64,6 +64,9 @@ abbr,acronym {
 	display: block;
 	outline: 0;
 }
+#myForm input[type="text"].error{
+	border: 1px solid red;
+}
 #myForm #submitButton {
 	margin: 15px auto;
 	display: block;
