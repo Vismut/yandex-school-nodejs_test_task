@@ -23,24 +23,24 @@
 			<div class="clearfix"></div>
 		</video>
 		<div id="app">
-			<form action="./" name="myForm" id="myForm">
+			<form action="success.json" name="myForm" id="myForm">
 				<label for="fio">
 					<input  type="text" id="fio" name="fio" value="" placeholder="Введите фамилию"/>
+				</label>
+				<label for="email">
+					<input type="text" id="email" name="email" value="" placeholder="Введите E-mail"/>
 				</label>
 				<label for="phone">
 					<input type="text" id="phone" name="phone" value="" placeholder="+7 (XXX) XXX XX XX"/>
 				</label>
-				<label for="email">
-					<input type="text" id="email" name="email" value="" placeholder="Введите E-mail"/>
+
+				<label for="submit">
+					<input type="submit" name="submit" id="submitButton" value="Отправить" onclick="MyForm.submit(); return false;"/>
 				</label>
 
 				<div id="resultContainer">
 
 				</div>
-				
-				<label for="submit">
-					<input type="submit" name="submit" id="submitButton" value="Отправить" onclick="MyForm.submit(); return false;"/>
-				</label>
 			</form>
 			<div class="clearfix"></div>
 		</div>
